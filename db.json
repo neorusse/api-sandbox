@@ -1,19 +1,66 @@
 {
-  "posts": [
+  "users": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "firstname": "Russell",
+      "lastname": "Nyorere",
+      "email": "neorusse@gmail.com",
+      "password": "fghsurhm"
+    },
+    {
+      "firstName": "Believe",
+      "lastName": "Kupa",
+      "email": "ruscom@gmail.com ",
+      "password": "tru23123",
+      "id": 2
+    },
+    {
+      "firstname": "russ",
+      "lastname": "admin",
+      "email": "yaflfcovwian@gmail.com",
+      "password": "topple",
+      "id": 3
+    },
+    {
+      "firstname": "admin",
+      "lastname": "admin",
+      "email": "russbelltech@gmail.com",
+      "password": "topple",
+      "id": 4
+    },
+    {
+      "firstname": "admin",
+      "lastname": "admin",
+      "email": "russbelltech@gmail.com",
+      "password": "",
+      "id": 5
+    },
+    {
+      "firstname": "admin",
+      "lastname": "me1",
+      "email": "admin@infobunk.com",
+      "password": "topple",
+      "id": 6
     }
   ],
-  "comments": [
+  "students": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "img": "./img/russ.jpg",
+      "name": "Nyorere B. Russell",
+      "desc": "Before joining Decagon Institute, Russell is an Udacity trained Frontend and WordPress Developer"
+    },
+    {
+      "id": 2,
+      "img": "./img/guy.png",
+      "name": "Omoigaide Rosemary",
+      "desc": "Badass Software Engineer with over two decades experience. She is bringing a wealth of knowledge to the team"
+    },
+    {
+      "id": 2,
+      "img": "./img/dev.png",
+      "name": "Kupa Oghenerurho",
+      "desc": "Overall Best graduating student with major in Computer Science. He has done internship with Apple, Google, and Facebook"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
