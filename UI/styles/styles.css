@@ -1,0 +1,201 @@
+/***************************
+****************************
+Reset Styles
+****************************
+***************************/
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/***************************
+****************************
+Base Styles
+****************************
+***************************/
+
+body {
+  background: url('../assets/imgs/bg-learn.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Roboto, sans-serif;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Georgia, serif;
+}
+
+a {
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+
+a:hover {
+  transition-duration: 0.05s;
+  text-decoration: none;
+}
+
+/********************
+Layout Module
+*********************/
+
+.col-text {
+  margin: 0px auto;
+  font-size: 28px;
+  font-weight: bold;
+  color: yellow;
+}
+
+@media (min-width: 900px) {
+  .row,
+  .col {
+    display: flex;
+  }
+
+  .col {
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .col-text {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 899px) {
+  .row,
+  .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto 50px auto;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  .col-text {
+    margin: 50px 0 0 auto;
+    font-size: 25px;
+    text-align: center;
+  }
+}
+
+/********************
+Form Module
+*********************/
+
+.form-box {
+  background: rgba(44, 62, 80, 0.7);
+  padding: 40px;
+  width: 380px;
+  margin: auto;
+  margin-top: 120px;
+}
+
+@media only screen and (max-width: 899px) {
+  .form-box {
+    width: 345px;
+    margin-top: 40px;
+  }
+}
+
+.form-box-signin {
+  height: 430px;
+}
+
+.form-box-signup {
+  height: 530px;
+}
+
+.form-box-reset {
+  height: 320px;
+}
+
+form {
+  width: 300px;
+  text-align: center;
+}
+
+input {
+  width: 300px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  font-size: 16px;
+  font-weight: 200px;
+  padding: 12px 0 10px 5px;
+  transition: border 0.5s;
+  outline: none;
+  color: #fff;
+}
+
+input[type='button'] {
+  width: 240px;
+  border: none;
+  background: #fff;
+  font-size: 16px;
+  padding: 10px 0;
+  line-height: 25px;
+  color: #000;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+input[type='button']:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+h2 {
+  color: #fff;
+}
+
+a {
+  color: yellow;
+  text-decoration: blink;
+}
+
+a:hover {
+  color: skyblue;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+::placeholder {
+  color: aliceblue;
+  opacity: 0.8;
+}
+
+#signup-display,
+#reset-display {
+  display: none;
+}
+
+@media only screen and (max-width: 899px) {
+  .form-box {
+    width: 345px;
+    margin-top: 40px;
+  }
+
+  input {
+    width: 270px;
+  }
+}
